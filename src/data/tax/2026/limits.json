@@ -1,0 +1,14 @@
+{
+  "asOf": "2026-11-15",
+  "status": "published",
+  "source": "Published summaries of IRS 2026 cost-of-living adjustments (see PRD). Verify against IRS notices.",
+  "sourceUrl": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+  "k401": { "limit": 24500, "catchUp": 8000, "catchUpAge": 50 },
+  "hsa": { "self": 4400, "family": 8750, "catchUp": 1000, "catchUpAge": 55 },
+  "ira": { "limit": 7500, "catchUp": 1100, "catchUpAge": 50 },
+  "rothPhaseOut": {
+    "single": [153000, 168000],
+    "hoh": [153000, 168000],
+    "mfj": [242000, 252000]
+  }
+}

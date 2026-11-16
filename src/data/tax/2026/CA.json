@@ -1,0 +1,48 @@
+{
+  "code": "CA",
+  "name": "California",
+  "asOf": "2026-11-15",
+  "status": "estimated",
+  "source": "ESTIMATE: FTB publishes the full 2026 schedule in late December 2026. Brackets and standard deduction here are the 2025 FTB schedule indexed by 3.4% (the factor implied by the FTB-confirmed 2026 first bracket of $11,456 and $158 exemption credit). SDI rate is the published EDD 2026 rate. Replace with the official schedule when available.",
+  "sourceUrl": "https://www.ftb.ca.gov/about-ftb/newsroom/tax-news/2026/10.html",
+  "hsaDeductible": false,
+  "standardDeduction": { "single": 5900, "mfj": 11800, "hoh": 11800 },
+  "exemptionCredit": { "single": 158, "mfj": 316, "hoh": 158 },
+  "brackets": {
+    "single": [
+      { "rate": 0.01, "upTo": 11456 },
+      { "rate": 0.02, "upTo": 27157 },
+      { "rate": 0.04, "upTo": 42861 },
+      { "rate": 0.06, "upTo": 59498 },
+      { "rate": 0.08, "upTo": 75197 },
+      { "rate": 0.093, "upTo": 384109 },
+      { "rate": 0.103, "upTo": 460927 },
+      { "rate": 0.113, "upTo": 768213 },
+      { "rate": 0.123, "upTo": null }
+    ],
+    "mfj": [
+      { "rate": 0.01, "upTo": 22912 },
+      { "rate": 0.02, "upTo": 54314 },
+      { "rate": 0.04, "upTo": 85722 },
+      { "rate": 0.06, "upTo": 118996 },
+      { "rate": 0.08, "upTo": 150394 },
+      { "rate": 0.093, "upTo": 768218 },
+      { "rate": 0.103, "upTo": 921854 },
+      { "rate": 0.113, "upTo": 1536426 },
+      { "rate": 0.123, "upTo": null }
+    ],
+    "hoh": [
+      { "rate": 0.01, "upTo": 22927 },
+      { "rate": 0.02, "upTo": 54316 },
+      { "rate": 0.04, "upTo": 70018 },
+      { "rate": 0.06, "upTo": 86654 },
+      { "rate": 0.08, "upTo": 102356 },
+      { "rate": 0.093, "upTo": 522385 },
+      { "rate": 0.103, "upTo": 626863 },
+      { "rate": 0.113, "upTo": 1044771 },
+      { "rate": 0.123, "upTo": null }
+    ]
+  },
+  "surtax": { "rate": 0.01, "over": 1000000, "label": "Mental Health Services Tax" },
+  "sdi": { "rate": 0.013, "wageBase": null, "label": "CA SDI" }
+}
